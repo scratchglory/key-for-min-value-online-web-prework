@@ -4,11 +4,12 @@
 require 'pry'
 
 def key_for_min_value(name_hash)
-  min_value = {}
+  min_value = []
+  min_key = []
   no_value = nil
   name_hash.each do |key, value|
-    if key == no_value
-      min_value = value
+    if value == no_value
+      min_value = key
     end
   end
   min_value
