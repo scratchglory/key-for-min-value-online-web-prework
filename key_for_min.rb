@@ -17,8 +17,8 @@ require 'pry'
 # end
 
 
-# empty = {}
-name_hash = {:blake => 500, :ashley => 2, :adam => 1}
+# # empty = {}
+# name_hash = {:blake => 500, :ashley => 2, :adam => 1}
 
 def key_for_min_value(name_hash)
   smallest_name = nil
@@ -34,5 +34,5 @@ def key_for_min_value(name_hash)
 end
 
 
-key_for_min_value(name_hash)
+# key_for_min_value(name_hash)
  
